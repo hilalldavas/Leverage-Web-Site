@@ -1,0 +1,130 @@
+/* @media (max-width: 768px) {
+    .container {
+      text-align: center;
+      img {
+        width: 100%;
+      }
+    }
+} */
+
+body{
+    width: 100%;
+    background-color: rgb(10, 12, 9);
+    background-size:cover;
+    overflow-x: hidden;
+}
+.iletisim{
+    text-align:right;
+ } 
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+.navbar navbar-expand-lg navbar-light bg-light{
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+#iletisim {
+    margin: 12px;
+    width: 180px;
+    height: 40px;
+    border-style:solid;
+    border-radius: 15px;
+    border-color: #b3bcda;
+    background-color: #634fd1;
+}
+.container{
+    width: 100%;
+}
+.nav-item flag{
+    width: 100%; 
+}
+
+p{
+    color: #888888;
+}
+#iletisim:hover{
+    transition:0.5ms;
+    background-color: #68758f}
+
+#hizmet{
+    width: 100%;
+}
+.row justify-content-center{
+    margin-top: 200px;
+}
+.col-lg-4 col-sm-6{
+    position: relative; top: 100px;
+    align-items: center;
+    
+}
+h4{
+    position: relative; bottom: 80px; left: 50px;}
+
+h2{ width: 1000px;
+    position: relative;bottom: 150px;right: 180px;
+}
+hr{
+    width: 90%;
+    border: 0 ;
+    border-bottom: 1px solid #bcc3ca;
+    margin: 10px auto;
+}
+.section-top-border{
+    padding: 175px ;
+}
+.row{
+    padding-top:25px;}
+.img-pop-up img-gal gallery_img{
+    height: 20px;
+    width: 100px;
+ }
+.section-top-border > row gallery-item{
+    padding: 50px 0;
+    border-top: 1px dotted #eee;
+}
+.ti-home:before {
+    content: "\e69b";
+}
+.contact-info__icon i, .contact-info__icon span {
+    color: #8f9195;
+    font-size: 27px;
+}
+.fa-thin fa-envelope-circle-check{
+    color: #8f9195;
+    font-size:27px;
+}
+.fa-thin fa-house{
+    color: #8f9195;
+    font-size:27px;
+}
+/*sütun yapısı*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* 
+img{
+    /* max-width: 100%; */
+    /* vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */ 
